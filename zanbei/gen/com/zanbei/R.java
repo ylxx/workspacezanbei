@@ -88,16 +88,17 @@ public final class R {
         public static final int welcome_bg=0x7f0a0001;
     }
     public static final class layout {
-        public static final int activity_base=0x7f030000;
-        public static final int activity_base_fragment=0x7f030001;
-        public static final int activity_home=0x7f030002;
-        public static final int activity_logo=0x7f030003;
-        public static final int activity_welcome=0x7f030004;
-        public static final int dialog_add_data=0x7f030005;
-        public static final int dialog_private_server=0x7f030006;
-        public static final int dialog_set_nick=0x7f030007;
-        public static final int showdialog=0x7f030008;
-        public static final int view_bar=0x7f030009;
+        public static final int aaa=0x7f030000;
+        public static final int activity_base=0x7f030001;
+        public static final int activity_base_fragment=0x7f030002;
+        public static final int activity_home=0x7f030003;
+        public static final int activity_logo=0x7f030004;
+        public static final int activity_welcome=0x7f030005;
+        public static final int dialog_add_data=0x7f030006;
+        public static final int dialog_private_server=0x7f030007;
+        public static final int dialog_set_nick=0x7f030008;
+        public static final int showdialog=0x7f030009;
+        public static final int view_bar=0x7f03000a;
     }
     public static final class menu {
         public static final int base=0x7f090000;
