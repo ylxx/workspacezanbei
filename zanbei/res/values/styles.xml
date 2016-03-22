@@ -28,5 +28,12 @@
         <!-- 是否浮现在activity之上 -->
         <item name="android:windowContentOverlay">@null</item>
     </style>
+    
+    
+    <style name="customDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@drawable/sp_waiting_dialog_bg</item>
+    </style>
 
 </resources>

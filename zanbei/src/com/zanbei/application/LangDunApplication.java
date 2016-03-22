@@ -39,6 +39,9 @@ public class LangDunApplication extends Application{
 	public static LangDunApplication sApplication;
 	private boolean sdCardExist;// 判斷sd卡是否存在
 	public static boolean isShowingDialog = false;
+	public static boolean timeOutOrLoginCrowdOut = false;
+	
+	public static LangDunApplication islangdunapplication;
 	
 
 	@Override

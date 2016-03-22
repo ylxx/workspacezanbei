@@ -18,4 +18,6 @@
     <color name="title_color">#DC3A0B</color>
     <color name="gray_text">#B0B0B0</color>
     <color name="gray_text1">#9A9A9A</color>
+    <color name="cor_c8c8c8">#ffc8c8c8</color>
+    <color name="text_color">#949494</color>
 </resources>

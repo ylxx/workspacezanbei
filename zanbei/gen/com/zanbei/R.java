@@ -17,6 +17,7 @@ public final class R {
         public static final int all_title=0x7f050009;
         public static final int black=0x7f050001;
         public static final int blue=0x7f050004;
+        public static final int cor_c8c8c8=0x7f050011;
         public static final int deep_red=0x7f050003;
         public static final int gray=0x7f050006;
         public static final int gray_background=0x7f050007;
@@ -27,6 +28,7 @@ public final class R {
         public static final int text_black=0x7f05000a;
         public static final int text_black1=0x7f05000b;
         public static final int text_black_shallow=0x7f05000c;
+        public static final int text_color=0x7f050012;
         public static final int text_hint_color=0x7f05000d;
         public static final int title_color=0x7f05000e;
         public static final int white=0x7f050000;
@@ -57,48 +59,66 @@ public final class R {
         public static final int dialog_error_icon=0x7f020009;
         public static final int dividers=0x7f02000a;
         public static final int ic_launcher=0x7f02000b;
-        public static final int lunbotu=0x7f02000c;
-        public static final int middle=0x7f02000d;
-        public static final int qidongye_02=0x7f02000e;
-        public static final int shape_circle_white=0x7f02000f;
+        public static final int loading=0x7f02000c;
+        public static final int lock_icon=0x7f02000d;
+        public static final int login_bg=0x7f02000e;
+        public static final int login_bt=0x7f02000f;
+        public static final int login_rectangle=0x7f020010;
+        public static final int lunbotu=0x7f020011;
+        public static final int middle=0x7f020012;
+        public static final int phone=0x7f020013;
+        public static final int progress_small=0x7f020014;
+        public static final int qidongye_02=0x7f020015;
+        public static final int shape_circle_white=0x7f020016;
+        public static final int sp_waiting_dialog_bg=0x7f020017;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0016;
-        public static final int dialogContent=0x7f0a000d;
-        public static final int dialogContentTxt=0x7f0a000c;
-        public static final int dialogImage=0x7f0a000b;
-        public static final int dialogTitleTxt=0x7f0a000a;
-        public static final int dialog_cancel=0x7f0a0004;
-        public static final int dialog_content=0x7f0a0002;
-        public static final int dialog_contents=0x7f0a0008;
-        public static final int dialog_sure=0x7f0a0006;
-        public static final int iv_hengxian=0x7f0a0003;
-        public static final int iv_xiaohengxian=0x7f0a0005;
-        public static final int left_bar=0x7f0a0013;
-        public static final int ll=0x7f0a0000;
-        public static final int middleBtn=0x7f0a0010;
-        public static final int middle_bar=0x7f0a0014;
-        public static final int middleimage=0x7f0a000f;
-        public static final int nextBtn=0x7f0a0011;
-        public static final int nickname_et=0x7f0a0009;
-        public static final int previousBtn=0x7f0a000e;
-        public static final int right_bar=0x7f0a0015;
-        public static final int server_title=0x7f0a0007;
-        public static final int titlebar=0x7f0a0012;
-        public static final int welcome_bg=0x7f0a0001;
+        public static final int action_settings=0x7f0a001e;
+        public static final int bt_login=0x7f0a0004;
+        public static final int bt_tologin=0x7f0a0000;
+        public static final int dialogContent=0x7f0a0012;
+        public static final int dialogContentTxt=0x7f0a0011;
+        public static final int dialogImage=0x7f0a0010;
+        public static final int dialogTitleTxt=0x7f0a000f;
+        public static final int dialog_cancel=0x7f0a0009;
+        public static final int dialog_content=0x7f0a0007;
+        public static final int dialog_contents=0x7f0a000d;
+        public static final int dialog_sure=0x7f0a000b;
+        public static final int dialog_view=0x7f0a001b;
+        public static final int et_login_name=0x7f0a0002;
+        public static final int et_login_passw=0x7f0a0003;
+        public static final int iv_hengxian=0x7f0a0008;
+        public static final int iv_xiaohengxian=0x7f0a000a;
+        public static final int left_bar=0x7f0a0018;
+        public static final int ll=0x7f0a0005;
+        public static final int middleBtn=0x7f0a0015;
+        public static final int middle_bar=0x7f0a0019;
+        public static final int middleimage=0x7f0a0014;
+        public static final int nextBtn=0x7f0a0016;
+        public static final int nickname_et=0x7f0a000e;
+        public static final int previousBtn=0x7f0a0013;
+        public static final int right_bar=0x7f0a001a;
+        public static final int server_title=0x7f0a000c;
+        public static final int title_split=0x7f0a0001;
+        public static final int titlebar=0x7f0a0017;
+        public static final int wait_progerss=0x7f0a001c;
+        public static final int waiting_text=0x7f0a001d;
+        public static final int welcome_bg=0x7f0a0006;
     }
     public static final class layout {
         public static final int aaa=0x7f030000;
         public static final int activity_base=0x7f030001;
         public static final int activity_base_fragment=0x7f030002;
         public static final int activity_home=0x7f030003;
-        public static final int activity_logo=0x7f030004;
-        public static final int activity_welcome=0x7f030005;
-        public static final int dialog_add_data=0x7f030006;
-        public static final int dialog_private_server=0x7f030007;
-        public static final int dialog_set_nick=0x7f030008;
-        public static final int showdialog=0x7f030009;
-        public static final int view_bar=0x7f03000a;
+        public static final int activity_login=0x7f030004;
+        public static final int activity_logo=0x7f030005;
+        public static final int activity_welcome=0x7f030006;
+        public static final int dialog_add_data=0x7f030007;
+        public static final int dialog_private_server=0x7f030008;
+        public static final int dialog_set_nick=0x7f030009;
+        public static final int showdialog=0x7f03000a;
+        public static final int view_bar=0x7f03000b;
+        public static final int wait_progress_dialog=0x7f03000c;
     }
     public static final class menu {
         public static final int base=0x7f090000;
@@ -110,9 +130,13 @@ public final class R {
         public static final int action_settings=0x7f070002;
         public static final int app_name=0x7f070000;
         public static final int hello_world=0x7f070001;
+        public static final int network_is_futility=0x7f070008;
+        public static final int the_network_is_dead=0x7f070009;
         public static final int title_activity_base_fragment=0x7f070004;
         public static final int title_activity_home=0x7f070005;
+        public static final int title_activity_login=0x7f070006;
         public static final int title_activity_welcome=0x7f070003;
+        public static final int wait_dialog_hint=0x7f070007;
     }
     public static final class style {
         /** 
@@ -141,6 +165,7 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f080001;
+        public static final int customDialogTheme=0x7f080003;
         public static final int myDialogTheme=0x7f080002;
     }
 }
