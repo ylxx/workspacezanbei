@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="60dp"
+    android:background="@drawable/shape_circle_white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="05dp"
+        android:paddingTop="05dp" >
+
+        <TextView
+            android:id="@+id/server_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="05dp"
+            android:text="会诊类服务简介:" />
+
+        <Button
+            android:id="@+id/dialog_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/check_update"
+            android:paddingRight="02dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+<!-- 
+        <WebView
+            android:id="@+id/server_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="05dp"
+            android:text="微信公众平" />
+             -->
+    </ScrollView>
+
+</LinearLayout>

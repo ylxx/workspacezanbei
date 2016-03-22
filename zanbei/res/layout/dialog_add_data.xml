@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="30dp"
+    android:background="@drawable/shape_circle_white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:maxEms="10"
+        android:text="确定取消添加吗"
+        android:textColor="@color/black"
+        android:textSize="21sp" />
+
+    <ImageView
+        android:id="@+id/iv_hengxian"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialog_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="取消"
+            android:textColor="@color/blue"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/iv_xiaohengxian"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_background" />
+
+        <Button
+            android:id="@+id/dialog_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="确定"
+            android:textColor="@color/blue"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>
